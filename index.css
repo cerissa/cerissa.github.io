@@ -12,11 +12,11 @@ padding:0;
 
 /* start of nav bar */
 #nav{
-	background: #F504B5;
+	background: black;
 	height:45px;
 	margin-top: -16px;
-	font-size: 18px;
-	
+	font-size: 16px;
+		
 	
 }
 
@@ -49,7 +49,7 @@ padding:0;
 }
 
 #nav ul li a, visted{
-	color:#ccc;
+	color:#F504B5;
 	display: block;
 	padding: 15px;
 	text-decoration: none;
