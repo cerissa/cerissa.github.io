@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>		
+
+	<title>shopping list</title>
+	
+	<link rel="stylesheet" href="sl.css">
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script src="sl.js"></script>
+</head>
+<body>
+
+	<div class="container-fluid">
+	
+<div class="row">
+    <div class="col-xs-2"></div>
+    <h1 class="col-xs-8">Shopping List</h1>
+    <div class="col-xs-2 "></div>
+</div>
+
+<div class="row instructions">
+    <div class="col-xs-2"></div>
+	  <h2 class="col-xs-8"> Create your own shopping list, check it off if you've got it, and click on it to remove it!</h2>
+     <div class="col-xs-2"></div>
+</div>
+  
+<div class="new-item">            
+       <input type="text" id="new-item" >		              
+		  <button id="submit" type="submit" class="btn btn-lg btn-success ">Add to List</button>
+       <div class="error"></div>
+		  
+</div>
+
+<section class="main">
+  
+		<div class="list">
+			<ul class="list-items">
+			    <span class="box"></span>
+			</ul>
+		</div>
+
+</section>
+</div>
+
+</body>
+</html>

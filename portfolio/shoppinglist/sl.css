@@ -1,0 +1,94 @@
+
+body{
+	background-image: url('http://rm913.github.io/shoppinglist/img/back.jpg');
+
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	text-align: center;
+
+}
+h2{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+.new-item{
+	text-align: center;
+	margin: auto;
+}
+
+.new-item>p{
+	border: dashed gray;
+	margin: 2em auto;
+	width: 25em;
+}
+.new-item button{
+	background-color: green;
+	margin: 1em;
+	padding: .5em;
+}
+
+.main{
+	margin-top: 2em;
+
+}
+.instruction{
+	text-align: center;
+}
+.list{
+
+	margin: auto;
+}
+.list ul{
+	height: 30em;
+	background-color: #AA0000;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	margin: auto;
+	padding-top: 1em;
+	width: 50em;
+	opacity: 0.8;
+	color: black;
+	
+}
+
+.list li{
+	padding: .05em;
+	list-style-type: none;
+	display: block;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.4em;
+   color: #000;
+  font-weight: bold;
+}
+
+.box{
+	display: none;
+	border: solid black;
+	width: 1em;
+	height: 1em;
+}
+/* font awesome css*/
+.fa {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #000;
+  float: right;
+  margin-right: 0.2em;
+}
+
+.error {
+	color: #fff;
+	background-color: red;
+	width:250px;
+	display: none;
+	transition: all 0.3s ease;		
+	padding: 10px;
+	border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+

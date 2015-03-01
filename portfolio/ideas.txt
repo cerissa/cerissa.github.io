@@ -1,0 +1,6 @@
+when they click on a picture of my work, a info card will pop up with all the info on it, and sample of the code, or bigger picture
+have each page, will have one html document just one big scrolling page, represent each of my skills and have samples of each skill on the page
+the bottem of the skills will have full websites i have done
+then contact me page
+and an about me page will be first or second page, 
+navigation on every page so they can just click it and go up or down to whatever page they want

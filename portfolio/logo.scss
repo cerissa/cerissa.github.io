@@ -1,0 +1,44 @@
+body{
+	font-family: 'Lora', serif;
+	font-size: 280px;
+	position: relative;
+	background-position: 5
+	color:red;
+
+}
+
+.logo{
+	width: 270px;
+	height: 270px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-color: #44463C;
+	position: absolute;
+	
+
+	
+}
+
+
+.c, .l{
+	display: block;
+	position: absolute;
+}
+
+
+.c {
+  color:#CE6700;  
+  
+  left:25px;
+  top:-45px;
+  z-index: 1;
+}
+
+.l {
+	color: #009B27;
+  left: 50px;
+  font-size: 340px;
+  top:-80px;
+
+}

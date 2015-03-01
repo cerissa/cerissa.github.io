@@ -1,0 +1,46 @@
+#circle{
+	font-family: 'Lora', serif;
+	margin-left: 48%;
+	margin-right: auto;
+	margin-top: -29px;
+	width: 230px;
+
+	}
+
+
+
+.clogo{
+	width: 130px;
+	height: 130px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-color: #44463C;
+	position: relative;
+	
+
+	
+}
+
+
+.c, .l{
+	display: block;
+	position: absolute;
+}
+
+
+.c {
+  color:#CE6700;  
+  font-size: 130px;
+  left:12px;
+  top:-13px;
+  z-index: 1;
+}
+
+.l {
+	color: #009B27;
+  left: 25px;
+  font-size: 160px;
+  top:-30px;
+
+}

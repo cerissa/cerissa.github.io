@@ -1,0 +1,139 @@
+html, body{
+	height: 100%;
+	margin:0 auto;
+
+}
+	html, body, div {
+margin: 0;
+padding:0;
+}
+
+	
+
+/* start of nav bar */
+#nav{
+	background: #F504B5;
+	height:45px;
+	margin-top: -16px;
+	font-size: 18px;
+	
+	
+}
+
+
+#nav_wrapper{
+	width: 100%;
+	margin:0 auto;
+	text-align: center; 
+}
+
+	#nav ul{
+    list-style-type: none;
+    padding: 0;
+     margin: 0,
+     position:relative;
+     min-width: 200px;
+	}
+
+#nav ul li{
+	display: inline-block;
+}
+#nav ul li:hover{
+	background:black;
+	
+
+}
+#nav ul li img{
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+#nav ul li a, visted{
+	color:#ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+
+
+#nav ul li:hover ul{
+	display:block;
+	
+}
+
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background: black;
+	border: 5px solid black;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 120px;
+	 
+	
+}
+#nav ul ul li{
+	display: block;
+	color:#35FF1A;
+}
+#nav ul ul li a:hover{ 
+	color: #35FF1A;
+	}
+
+/* end of navigation bar */
+
+
+
+.wrapper{
+	display: table;
+	height: 100%;
+	width: 100%;
+	 
+}
+
+.stage{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#top{
+	text-align: center;
+	background-image: url("/images/background/bkgrndb.jpg");
+	background: black;
+	background-size: 100% 100%;
+	color:#F504B5;
+	position: relative;
+	z-index: -1;
+	
+}
+
+#about{
+	
+	text-align: center;
+	color: #f504B5;
+	background:#05B100;
+}
+ .computers{
+ 	display: inline-block;
+ 	padding:15px;
+
+ }
+
+ hr{
+ 	display: inline-block;
+ 	width: 30%;
+ 	border: 7px solid #F504b5;
+ }
+ p, h1{
+ 	font-family: 'Shadows Into Light', cursive;
+ }
+ .name{
+ 	font-size: 60px;
+ }
+ .headline{
+ 	font-size: 40px;
+ }
+ .info{
+ 	font-size: 25px;
+ }

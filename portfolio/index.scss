@@ -1,0 +1,42 @@
+html, body{
+	height: 100%;
+	margin: 0;
+
+}
+nav{
+	display: block;
+	text-decoration: none;
+	background:#727564;
+	height:10%;
+
+
+}
+
+
+
+.wrapper{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.stage{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#top{
+	background-image: url("main2.jpg");
+	background-size: 100%;
+	text-align: center;
+	opacity:0.5;
+	text
+	
+}
+
+#about{
+	background:orange;
+	text-align: center;
+}
+
+}
